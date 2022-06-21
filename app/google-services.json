@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218847331188",
+    "firebase_url": "https://login-bafbd-default-rtdb.firebaseio.com",
+    "project_id": "login-bafbd",
+    "storage_bucket": "login-bafbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218847331188:android:71094a005736ae19e62221",
+        "android_client_info": {
+          "package_name": "id.ac.uinsgd.kelompok2.tugasgologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218847331188-fd2es1viq3humd49q39qkp5lbrjc72ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB93gz1BJXLrf44AxKYfHmGR0bqLoKArXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218847331188-fd2es1viq3humd49q39qkp5lbrjc72ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

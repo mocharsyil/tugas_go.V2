@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.uinsgd.kelompok2.tugasgo.KelasActivity">
+
+    <Button
+        android:id="@+id/PrakPBO"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="Prak PBO"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/StratAlgo"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="Strategi Algo"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/Probstat"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="probstat"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/PBO"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="PBO"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <Button
+        android:id="@+id/Basdat"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#FFBD59"
+        android:text="Basis Data"
+        android:textColor="#2C423D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PrakBasdat"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFBD59"
+        android:text="Prak Basdat"
+        android:textColor="#2C423D"
+        app:layout_constraintEnd_toEndOf="@+id/Basdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Basdat"
+        app:layout_constraintTop_toBottomOf="@+id/Basdat" />
+
+    <Button
+        android:id="@+id/RPL"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="RPL"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/Akhlak"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFBD59"
+        android:text="Akhlak tasawuf"
+        android:textColor="#2C423D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PrakBasdat"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/PrakBasdat"
+        app:layout_constraintTop_toBottomOf="@+id/PrakBasdat"
+        app:layout_constraintVertical_bias="0.176" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

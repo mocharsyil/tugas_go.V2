@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.uinsgd.kelompok2.tugasgologin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TugasGO"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasGoLogin">
+        <activity
+            android:name=".ProbstatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StratAlgoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrakPBO_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PBO_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AkhlakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RPL_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PrakBasdatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasdatActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.DaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.TugasGoLogin.NoActionBar" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.E_libraryActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.ToDoActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.KelasActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.uinsgd.kelompok2.tugasgo.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
